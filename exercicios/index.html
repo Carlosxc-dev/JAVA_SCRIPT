@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- mostrando msg no chome -->
+    <h1>primeiro java scrip</h1>
+    <script>
+        window.alert("ola mundo")
+    </script>
+
+    <!-- botao para click -->
+    <h1>interagindo com um botao</h1>
+    <button onclick="clicou()">clica em min</button>
+    <script>
+        function clicou(){
+            window.alert("voce clicou no botao")
+        }
+    </script>
+
+    <!-- mechendo com dados do usuario -->
+    <h1>dodos do usuario interagindo</h1>
+    <button onclick="inicio()">clicke para comecar </button>
+
+    <script>
+        function inicio(){
+            let nome = window.prompt("qual seu nome ? ")
+            window.alert('ola, {nome} prazer te conhecer')
+        }
+    </script>
+
+
+</body>
+</html>

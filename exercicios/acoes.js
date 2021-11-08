@@ -1,6 +1,6 @@
 function acao1() {
     var resp = window.document.getElementById('saida')  // var resp e local a funcao acao1
-    resp.innerHTML += '<p>clicou no primeiro botao'     // mas pode ser global se no inicio
+    resp.innerHTML = '<p>clicou no primeiro botao'     // mas pode ser global se no inicio
 }
 
 function acao2() {

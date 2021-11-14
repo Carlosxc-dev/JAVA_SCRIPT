@@ -104,3 +104,32 @@ function func() {
     }
 }
 func();
+
+//condicional ternario 
+let ab = 11;
+
+var teste = ab === 10 ? ab = 5 : ab = 20;// teste e so uma variavel 
+
+console.log(teste);
+
+// retorno de arrys
+function arr() {
+    return  [5,'a',2];//vetor
+}
+function soma() {
+    var som = arr()[0] + arr()[2];
+    return som;
+}
+console.log("numero do vetor printado =  ", soma());
+
+// retorno de objetos 
+function objj() {
+    return {
+        nome : "carlos",
+        idade : 26,
+        sexo : "m",
+    }
+}
+console.log("nome dentro do objeto retornado na funcao = ",objj().nome);
+
+// 

@@ -132,4 +132,41 @@ function objj() {
 }
 console.log("nome dentro do objeto retornado na funcao = ",objj().nome);
 
-// 
+// operador virgula 
+var a, b=2, c=3; //usa so pra juntar varias var do mesmo tipo
+function test() {
+    return (a += 1, a) // retorna dois parametros 
+}
+
+// switch case
+function nome(x) {
+    switch (x) {
+        case "carlos":
+            console.log("escolheu o a opcao teste ");
+            break;
+        case 2:
+        console.log("escolheu o a opcao ", +x);
+        break;
+    }
+}
+nome("carlos");
+
+// repeticao while 
+x= 1;
+while (x < 10) {
+    console.log("teste while = ",x);
+    x++;
+}
+
+// operdor modulo 
+x = 0;
+while (x < 11) {
+    x ++;
+    var mod = x % 2;
+    console.log("modulo = ",mod);
+}
+
+// arrays
+var arr = ["carlos", "henrique", {idade: 26}];
+var quant = arr.length;
+console.log("a posica tal do array tem: ", + arr[2].idade);

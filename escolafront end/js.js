@@ -167,6 +167,32 @@ while (x < 11) {
 }
 
 // arrays
-var arr = ["carlos", "henrique", {idade: 26}];
+var arr = ["carlos", 3 , {idade: 26, nome: "carlos"}];
 var quant = arr.length;
 console.log("a posica tal do array tem: ", + arr[2].idade);
+
+
+// metodo push 
+var array = ["carlos", "henrique", 1,2,3, true];
+function atualiza() {
+    array.push([3,2,1]);
+    return array;
+}
+console.log("metodo push no arry = ", atualiza());
+
+// for 
+var somaa;
+for (var num = 0; num < 10; num++) {
+    console.log("soma = ", +(num));
+}
+
+// funcao autoexecutavel 
+(function () {
+    console.log("exeutada sozinha");
+}());
+
+//typeof so testa tipos primitivos no js
+var nomeee = "julio";
+var nome = 500;
+var nome =true;
+document.write(typeof nomeee);// escreve na pagina do site 

@@ -82,3 +82,13 @@ function receberPrimeiroUltimoElemto(array) {
 console.log(receberPrimeiroUltimoElemto([1, 2, "ult"]));
 
 //10
+function removePropriedade(obj, propri) {
+    delete obj.tipo
+    return obj
+}
+var casa= {
+    tam: 20,
+    tipo: "grande",
+    venda: true,
+}
+console.log("obj sem propr = ",removePropriedade(casa, casa.venda));

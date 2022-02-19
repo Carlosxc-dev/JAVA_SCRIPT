@@ -143,7 +143,7 @@ function nome(x) {
     switch (x) {
         case "carlos":
             console.log("escolheu o a opcao teste ");
-            break;
+            break; 
         case 2:
         console.log("escolheu o a opcao ", +x);
         break;
